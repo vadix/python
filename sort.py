@@ -2,23 +2,29 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-if (a > b and a > c) or (a == b and a > c):
-    if b > c:
-        print("a\nb\nc")
-
-if  b >= a and b >= c:
-    if a >= c:
+if a >= b:
+    if b >= c:
+        print(a)
+        print(c)
+        print(b)
+    elif a>= c:
+        print(a)
+        print(b)
+        print(c)
+    else:
+        print(c)
+        print(b)
+        print(a)
+else:
+    if b <= c:
+        print(c)
+        print(a)
+        print(b)
+    elif a <= c:
         print(b)
         print(a)
         print(c)
-    print(b)
-    print(c)
-    print(a)
-
-
-if c >= a and c >= b:
-    if a >= b:
+    else:
+        print(b)
         print(c)
         print(a)
-        print(b)
-
