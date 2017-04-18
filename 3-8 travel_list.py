@@ -1,0 +1,10 @@
+travel_list = ['Gruzia', 'Japan', 'Holland', 'USA', 'Norway']
+print(travel_list)
+print(sorted(travel_list))
+print(travel_list)
+print(sorted(travel_list, reverse=True))
+print(travel_list)
+travel_list.reverse()
+print(travel_list)
+travel_list.reverse()
+print(travel_list)
