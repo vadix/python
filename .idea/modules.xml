@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/book.iml" filepath="$PROJECT_DIR$/.idea/book.iml" />
-      <module fileurl="file://C:\Users\Administrator\PycharmProjects\book\.idea\book.iml" filepath="C:\Users\Administrator\PycharmProjects\book\.idea\book.iml" />
-      <module fileurl="file://C:\Users\Administrator\PycharmProjects\book\.idea\python.iml" filepath="C:\Users\Administrator\PycharmProjects\book\.idea\python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
     </modules>
   </component>
 </project>
