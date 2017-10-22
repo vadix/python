@@ -4,17 +4,30 @@ class Restaurant():
         self.cuisine_type = cuisine_type
         self.number_served = 0
 
+
     def describe_restaurant(self):
         print(self.restaurant_name.title())
         print(self.cuisine_type)
+
     def open_restaurant(self):
         """Restaurant is open."""
         print("Restaurant " + self.restaurant_name.title() + " is open.")
-    def
+
+    def set_number_served(self, served):
+        """Add served person"""
+        self.number_served = served
+
+    def increment_number_served(self, served):
+        """docs"""
+        self.number_served += served
+
 restaurant = Restaurant('tiflis', 'georgian')
 
-print(restaurant.restaurant_name)
-print(restaurant.cuisine_type)
+print(restaurant.number_served)
+restaurant.number_served = 5
+print(restaurant.number_served)
+restaurant.set_number_served(10)
+print(restaurant.number_served)
+restaurant.increment_number_served(10)
+print(restaurant.number_served)
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
