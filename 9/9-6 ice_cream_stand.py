@@ -11,7 +11,7 @@ class Restaurant():
         print("Restaurant " + self.restaurant_name.title() + " is open.")
 
 
-class IceCreamStand():
+class IceCreamStand(Restaurant):
     def __init__(self, restaurant_name, cuisine_type):
         super().__init__(restaurant_name, cuisine_type)
         self.flavors = "vanile"
@@ -19,8 +19,12 @@ class IceCreamStand():
 
 restaurant = Restaurant('tiflis', 'georgian')
 
+icecream = IceCreamStand('basinrobins', 'usa')
+
 print(restaurant.restaurant_name)
 print(restaurant.cuisine_type)
 
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
+
+print(icecream.flavors)
