@@ -1,4 +1,4 @@
-from name_function import get_formatted_name
+from city_functions import get_formatted_city
 
 print("Enter 'q' at any time to quit.")
 while True:
@@ -9,5 +9,5 @@ while True:
     if last == 'q':
         break
 
-formatted_name = get_formatted_name(first, last)
+formatted_name = get_formatted_city(first, last)
 print("\tNeatly formatted name: " + formatted_name + '.')
